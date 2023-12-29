@@ -1,0 +1,73 @@
+{
+  "name": "code-editor-tabs",
+  "displayName": "Code Editor Tabs",
+  "version": "1.0.0",
+  "description": "A small and fun project to illustrate code editors with tab support",
+  "main": "",
+  "type": "commonjs",
+  "private": true,
+  "scripts": {
+    "dev": "npm-run-all -p dev:*",
+    "dev:start": "next dev -p 3000",
+    "prod": "npm-run-all prod:*",
+    "prod:build": "next build",
+    "prod:start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mrjackyliang/code-editor-tabs.git"
+  },
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/mrjackyliang"
+    },
+    {
+      "type": "custom",
+      "url": "https://liang.nyc/paypal"
+    }
+  ],
+  "keywords": [
+    "code-editor",
+    "tabs",
+    "monaco",
+    "nextjs"
+  ],
+  "author": "Jacky Liang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrjackyliang/code-editor-tabs/issues"
+  },
+  "files": [],
+  "homepage": "https://github.com/mrjackyliang/code-editor-tabs",
+  "engines": {
+    "node": "18"
+  },
+  "dependencies": {
+    "@emotion/react": "11.10.8",
+    "@emotion/styled": "11.10.8",
+    "@monaco-editor/react": "4.6.0",
+    "@mui/material": "5.12.2",
+    "lodash": "4.17.21",
+    "next": "13.3.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/lodash": "4.14.191",
+    "@types/node": "18.16.3",
+    "@types/react": "18.2.0",
+    "@types/react-dom": "18.2.1",
+    "@typescript-eslint/eslint-plugin": "5.59.1",
+    "@typescript-eslint/parser": "5.59.1",
+    "eslint": "8.39.0",
+    "eslint-config-airbnb": "19.0.4",
+    "eslint-config-airbnb-typescript": "17.0.0",
+    "eslint-config-next": "13.3.1",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-jsx-a11y": "6.7.1",
+    "eslint-plugin-react": "7.32.2",
+    "npm-run-all": "4.1.5",
+    "typescript": "5.0.4"
+  }
+}
